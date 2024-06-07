@@ -12,14 +12,37 @@ header {
   justify-content: space-between;
   width: 990px;
   height: 100px;
-  background-color: red;
 }
 .logo {
-  background-color: aqua;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .menu {
-  background-color: green;
+  display: flex;
+  align-items: center;
+}
+
+nav ul,
+nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #727272;
+}
+nav .ativo a,
+nav a:hover {
+  background-color: #39aae1;
+  color: #ffffff;
 }
